@@ -18,12 +18,19 @@ A quick tl;dr guide for people who are already familiar with Pull Requests
 	<td>Concept</td>
 	<td>
 		<ul>
-			<li>Code evolves in one dimension, "bad" &rarr; "better"</li>
+			<li>Code evolves in one dimension:</li>
+			<ul>
+				<li>"bad" &rarr; "better"</li>
+			</ul>
 		</ul>
 	</td>
 	<td>
 		<ul>
-			<li>Code evolves in two dimensions, "No features" &rarr; "Features A, B, and C" and "Feature A proof-of-concept" &rarr; "Feature A finished release"</li>
+			<li>Code evolves in two dimensions:</li>
+			<ul>
+				<li>"No features" &rarr; "Features A, B, and C"</li>
+				<li>"Feature A proof-of-concept" &rarr; "Feature A finished release"</li>
+			</ul>
 		</ul>
 	</td>
 </tr>
