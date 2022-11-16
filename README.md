@@ -54,6 +54,7 @@ A quick tl;dr guide for people who are already familiar with Pull Requests
 			<li>Client and server reviewed separately
 			<ul>
 				<li>But linked to show that client depends on server
+				<li>By default viewing "current version of client" and "current version of server"
 				<li>With the ability to see what changed between eg "Add API (Version 1)" and "Add API (Version 2)" if you want to see a specific bug get fixed.</li>
 			</ul>
 			<li>The client can be reviewed and approved first, but it can't land until after the server diff lands.</li>
