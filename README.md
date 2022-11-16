@@ -42,13 +42,10 @@ A quick tl;dr guide for people who are already familiar with Pull Requests
 			<ul>
 				<li>Individual commits available if you want to see a specific bug get fixed.</li>
 			</ul>
-			<li>Client and server code reviews are all-or-nothing
+			<li>Client and server code reviews are all-or-nothing - No nice way to review "just the server" or "just the client"
 			<ul>
-				<li>Unless you split it into two separate pull requests, but then there's no record that the client depends on the server</li>
-			</ul>
-			<li>No nice way to review "just the server" or "just the client"
-			<ul>
-				<li>Unless the developer does <code>commit --amend</code> and <code>push --force</code> to create one server commit and one client commit... at which point congratulations, you've invented a more-complicated and less-useful stacked diff workflow :D
+				<li>Unless the developer splits it into two separate pull requests, but then there's no record that the client depends on the server</li>
+				<li>Or the developer does <code>commit --amend</code> and <code>push --force</code> to create one server commit and one client commit, with each of those two commits evolving separately over time... at which point congratulations, you've invented a more-complicated and less-useful stacked diff workflow :D
 			</ul>
 		</ul>
 	</td>
