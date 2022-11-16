@@ -11,8 +11,8 @@ A quick tl;dr guide for people who are already familiar with Pull Requests
 </tr>
 <tr class="images">
 	<td></td>
-	<td style="text-align: center"><img src="pr.drawio.svg" /></td>
-	<td style="text-align: center"><img src="stack.drawio.svg" /></td>
+	<td align="center"><img src="pr.drawio.svg" /></td>
+	<td align="center"><img src="stack.drawio.svg" /></td>
 </tr>
 <tr>
 	<td>Concept</td>
