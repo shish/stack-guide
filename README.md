@@ -5,9 +5,9 @@ A quick tl;dr guide for people who are already familiar with Pull Requests
 
 <table>
 <tr>
-	<th width="20%"></th>
-	<th width="40%">Pull Request Workflow</th>
-	<th width="40%">Stacked Diff Workflow</th>
+	<th width="10%"></th>
+	<th width="45%">Pull Request Workflow</th>
+	<th width="45%">Stacked Diff Workflow</th>
 </tr>
 <tr class="images">
 	<td></td>
