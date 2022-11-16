@@ -70,7 +70,7 @@ A quick tl;dr guide for people who are already familiar with Pull Requests
 		<ul>
 			<li>Client and server are merged into the main branch in one go
 			<ul>
-				<li>unless you cherry-pick individual commits, but this is error-prone)</li>
+				<li>Unless you cherry-pick individual commits, but this is error-prone</li>
 			</ul>
 		</ul>
 	</td>
@@ -89,7 +89,7 @@ A quick tl;dr guide for people who are already familiar with Pull Requests
 		<ul>
 			<li>5 commits in the history
 			<ul>
-				<li>(unless you do an interactive rebase to squash after code review is finished, but then what gets released doesn't match what was reviewed)</li>
+				<li>Unless you do an interactive rebase to squash after code review is finished, but then what gets released doesn't match what was reviewed</li>
 			</ul>
 		</ul>
 	</td>
