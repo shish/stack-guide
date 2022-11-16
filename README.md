@@ -1,5 +1,8 @@
 Stacked Diffs
 =============
+
+A quick tl;dr guide for people who are already familiar with Pull Requests
+
 <table>
 <tr>
 	<th width="20%"></th>
@@ -10,6 +13,19 @@ Stacked Diffs
 	<td></td>
 	<td><img src="pr.drawio.svg" /></td>
 	<td><img src="stack.drawio.svg" /></td>
+</tr>
+<tr>
+	<td>Concept</td>
+	<td>
+		<ul>
+			<li>Code evolves in one dimension, "bad" &rarr; "better"</li>
+		</ul>
+	</td>
+	<td>
+		<ul>
+			<li>Code evolves in two dimensions, "No features" &rarr; "Features A, B, and C" and "Feature A proof-of-concept" &rarr; "Feature A finished release"</li>
+		</ul>
+	</td>
 </tr>
 <tr>
 	<td>Unit of code review</td>
