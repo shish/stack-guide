@@ -6,13 +6,13 @@ A quick tl;dr guide for people who are already familiar with Pull Requests
 <table>
 <tr>
 	<th width="10%"></th>
-	<th width="45%">Pull Request Workflow</th>
-	<th width="45%">Stacked Diff Workflow</th>
+	<th width="45%" style="text-align: center">Pull Request Workflow</th>
+	<th width="45%" style="text-align: center">Stacked Diff Workflow</th>
 </tr>
 <tr class="images">
 	<td></td>
-	<td><img src="pr.drawio.svg" /></td>
-	<td><img src="stack.drawio.svg" /></td>
+	<td style="text-align: center"><img src="pr.drawio.svg" /></td>
+	<td style="text-align: center"><img src="stack.drawio.svg" /></td>
 </tr>
 <tr>
 	<td>Concept</td>
@@ -28,9 +28,23 @@ A quick tl;dr guide for people who are already familiar with Pull Requests
 		<ul>
 			<li>Code evolves in two dimensions:</li>
 			<ul>
-				<li>"No features" &rarr; "Features A, B, and C"</li>
-				<li>"Feature A proof-of-concept" &rarr; "Feature A finished release"</li>
+				<li>"No functionality" &rarr; "Functionality A, B, and C"</li>
+				<li>"First attempt" &rarr; "Released version"</li>
 			</ul>
+		</ul>
+	</td>
+</tr>
+<tr>
+	<td>Commands</td>
+	<td>
+		<ul>
+			<li><code>commit</code> to move down the list</li>
+		</ul>
+	</td>
+	<td>
+		<ul>
+			<li><code>commit</code> to move down</li>
+			<li><code>amend</code> to move right</li>
 		</ul>
 	</td>
 </tr>
